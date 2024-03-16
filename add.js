@@ -1,5 +1,7 @@
-function add(a, b) {
-	return a + b;
+const todoList = [];
+
+function deleteTodo() {
+	todoList.pop();
 }
 
-console.log(add(2, 3));
+deleteTodo();
